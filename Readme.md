@@ -29,8 +29,8 @@ Programa de consola en C# que revisa tu equipo y tu red local en busca de vulner
 ## Cómo usarlo
 
 ```bash
-git clone <url-del-repositorio>
-cd snaktools
+git clone https://github.com/josephfelizsanchez-afk/snaktools-detector-de-vulnerabilidades
+cd snaktools-detector-de-vulnerabilidades
 dotnet run
 ```
 
@@ -43,7 +43,7 @@ Elige una opción del menú: escanear el equipo, escanear la red o salir.
 - El escaneo corre en segundo plano mientras muestra el progreso, pero no es un servicio que se ejecute solo.
 - El escaneo de red asume una subred /24 y solo encuentra dispositivos que respondan a ping.
 
-## Lo que viene esta en fase de desarrollo aun no esta terminado
+## Lo que viene
 
 - Interfaz gráfica (ventana) para no depender de la terminal
 - Consulta de vulnerabilidades reales con la API de NVD (CVE)
