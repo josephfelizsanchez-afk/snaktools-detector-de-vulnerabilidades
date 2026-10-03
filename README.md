@@ -1,0 +1,1 @@
+# snaktools-detector-de-vulnerabilidades
